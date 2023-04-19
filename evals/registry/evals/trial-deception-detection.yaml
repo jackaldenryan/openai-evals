@@ -1,0 +1,8 @@
+trial-deception-detection:
+  id: trial-deception-detection.dev.v0
+  metrics: [accuracy]
+
+trial-deception-detection.dev.v0:
+  class: evals.elsuite.basic.match:Match
+  args:
+    samples_jsonl: trial-deception-detection/samples.jsonl
